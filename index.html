@@ -7,7 +7,7 @@ title: Kneipverein Friedberg e. V.
     <div class="container" style="max-width: 800px;">
         <div class="row text-center mt-5">
             <center>
-                            <img src="/assets/images/logo.svg" alt="" class="centered">
+                <img src="/assets/images/logo.svg" alt="" class="centered">
             </center>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis reprehenderit placeat, quod voluptatibus tenetur fuga omnis error numquam culpa quasi vel iusto nisi facilis consectetur minus quia corporis voluptatem cum.</p>
 
@@ -15,5 +15,38 @@ title: Kneipverein Friedberg e. V.
         </div>
     </div>
 
-    <div class="container" style="max-width: 1400px;">
+    <div class="container mt-5" style="max-width: 1600px;">
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation" style="margin: auto">
+                <button class="nav-link active" id="pills-news-tab" data-bs-toggle="pill" data-bs-target="#pills-news" type="button" role="tab" aria-controls="pills-news" aria-selected="true">Aktuelles</button>
+            </li>
+            <li class="nav-item" role="presentation" style="margin: auto">
+                <button class="nav-link" id="pills-board-tab" data-bs-toggle="pill" data-bs-target="#pills-board" type="button" role="tab" aria-controls="pills-board" aria-selected="false">Vorstand</button>
+            </li>
+            <li class="nav-item" role="presentation" style="margin: auto">
+                <button class="nav-link" id="pills-trainers-tab" data-bs-toggle="pill" data-bs-target="#pills-trainers" type="button" role="tab" aria-controls="pills-trainers" aria-selected="false">Übungsleiter</button>
+            </li>
+            <li class="nav-item" role="presentation" style="margin: auto">
+                <button class="nav-link" id="pills-membership-tab" data-bs-toggle="pill" data-bs-target="#pills-membership" type="button" role="tab" aria-controls="pills-membership" aria-selected="false">Mitgliedschaft</button>
+            </li>
+            <li class="nav-item" role="presentation" style="margin: auto">
+                <button class="nav-link" id="pills-statute-tab" data-bs-toggle="pill" data-bs-target="#pills-statute" type="button" role="tab" aria-controls="pills-statute" aria-selected="false">Satzung</button>
+            </li>
+            <li class="nav-item" role="presentation" style="margin: auto">
+                <button class="nav-link" id="pills-links-tab" data-bs-toggle="pill" data-bs-target="#pills-links" type="button" role="tab" aria-controls="pills-links" aria-selected="false">Links</button>
+            </li>
+            <li class="nav-item" role="presentation" style="margin: auto">
+                <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Kontakt</button>
+            </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-news" role="tabpanel" aria-labelledby="pills-news-tab">{% include news_section.html %}</div>
+            <div class="tab-pane fade" id="pills-board" role="tabpanel" aria-labelledby="pills-board-tab">{% include board_section.html %}</div>
+            <div class="tab-pane fade" id="pills-trainers" role="tabpanel" aria-labelledby="pills-trainers-tab">{% include trainers_section.html %}</div>
+            <div class="tab-pane fade" id="pills-membership" role="tabpanel" aria-labelledby="pills-membership-tab">[MEMBERSHIP]</div>
+            <div class="tab-pane fade" id="pills-statute" role="tabpanel" aria-labelledby="pills-statute-tab">[STATUTE]</div>
+            <div class="tab-pane fade" id="pills-links" role="tabpanel" aria-labelledby="pills-links-tab">[LINKS]</div>
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">[CONTACT]</div>
+        </div>
+
     </div>

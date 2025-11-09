@@ -1,0 +1,43 @@
+- role: "1. Vorsitzende"
+  name: "Marianne von Wachter"
+  photo: /assets/images/board/placeholder_person.png
+
+
+- role: "2. Vorsitzender und IT"
+  name: "Christian Bart"
+  photo: /assets/images/board/placeholder_person.png
+
+
+- role: "Kassiererin"
+  name: "Gerline Sutter"
+  photo: /assets/images/board/placeholder_person.png
+
+
+- role: "Schriftführerin und Presse"
+  name: "Christine Krüger"
+  photo: /assets/images/board/placeholder_person.png
+
+
+- role: "Beirat"
+  name: "Klaus Fischer"
+  photo: /assets/images/board/placeholder_person.png
+
+
+- role: "Beirätin"
+  name: "Angelika Hamann"
+  photo: /assets/images/board/placeholder_person.png
+
+
+- role: "Beirätin"
+  name: "Barbara Löber"
+  photo: /assets/images/board/placeholder_person.png
+
+
+- role: "Beirätin"
+  name: "Claudia Schmidt"
+  photo: /assets/images/board/placeholder_person.png
+
+
+- role: "Beirat"
+  name: "Friedrich von Wachter"
+  photo: /assets/images/board/placeholder_person.png

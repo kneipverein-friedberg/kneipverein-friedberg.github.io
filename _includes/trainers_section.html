@@ -1,0 +1,23 @@
+<center>
+   <table>
+  <tr style="border-bottom: solid black 1px;">
+    <th style="min-width: 300px;">Übungsleiterinnen & -leiter</th>
+    <th style="min-width: 350px;">Angebotende Kurse</th>
+  </tr>
+  {% for item in site.data.trainers %}
+    {% assign mod = forloop.index0 | modulo:2 %}
+    {% if mod == 1 %}
+        <tr style="height:40px;">
+    {% else %}
+        <tr style="height:40px; background-color: #eee;">
+    {% endif %}
+        <td>{{ item.name }}</td>
+        <td>
+            {% for task in item.tasks %}
+                {{ task }}<br>
+            {% endfor %}
+        </td>
+    </tr>
+  {% endfor %}
+</table> 
+</center>

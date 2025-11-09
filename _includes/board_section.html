@@ -1,0 +1,12 @@
+<center>
+    <div class="row">
+    {% for item in site.data.board %}
+    <div class="col-12 col-md-4 g-5">
+        <img class="m-3" src="{{ item.photo }}" alt="">
+        <h3>{{ item.name }}</h3>
+        <h4>{{ item.role }}</h4>
+    </div>
+    {% endfor %}
+</div>
+
+</center>

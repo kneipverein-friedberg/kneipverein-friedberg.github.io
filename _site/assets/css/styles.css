@@ -16,6 +16,10 @@ a:hover { color: #37bdee; }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { text-decoration: none; }
 
+button[role=tab] { background-color: white !important; font-size: x-large; font-weight: bold; color: #1881b8; }
+
+button[role=tab].active { background-color: #1881b8 !important; }
+
 .display-6 { font-size: 2rem; }
 
 img.centered { display: block; margin-left: auto; margin-right: auto; max-height: 500px; margin-top: 40px; margin-bottom: 40px; }
