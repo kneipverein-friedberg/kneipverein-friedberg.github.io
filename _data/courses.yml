@@ -1,0 +1,14 @@
+- day: "Montag"
+  courses:
+    - name: "Beckenboden-Gesundheitstraining"
+      slot: "14:15&ndash;15:15<br>15:30&ndash;16:30"
+      duration: "11-mal 60 Minuten"
+      start: "12. Januar 2026"
+      place: "Kneipp Treff"
+      price:
+        member: "40,70"
+        guest: "51,70"
+      trainer:
+        name: "Elisabeth Walter"
+        phone: "0821 781885"
+

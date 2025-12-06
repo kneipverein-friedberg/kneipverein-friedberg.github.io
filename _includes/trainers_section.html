@@ -1,23 +1,38 @@
-<center>
-   <table>
-  <tr style="border-bottom: solid black 1px;">
-    <th style="min-width: 300px;">Übungsleiterinnen & -leiter</th>
-    <th style="min-width: 350px;">Angebotende Kurse</th>
-  </tr>
-  {% for item in site.data.trainers %}
-    {% assign mod = forloop.index0 | modulo:2 %}
-    {% if mod == 1 %}
-        <tr style="height:40px;">
-    {% else %}
-        <tr style="height:40px; background-color: #eee;">
-    {% endif %}
-        <td>{{ item.name }}</td>
-        <td>
-            {% for task in item.tasks %}
-                {{ task }}<br>
-            {% endfor %}
-        </td>
-    </tr>
-  {% endfor %}
-</table> 
-</center>
+<div class="container">
+  
+<div class="container-fluid d-flex align-items-end justify-content-center mt-5 mb-5">
+    <div class="row" style="max-width: 1150px;">
+        <div class="col">
+            <center class="mb-3">
+                <a href="/assets/documents/beitrittserklaerung.pdf" target="_blank" class="btn button1 btn-lg d-flex justify-content-center" role="button" style="min-width: 350px;"><i class="fs-2 ph-bold ph-file-pdf"></i>&#8194; Die Beitrittserklärung als PDF</a>
+            </center>
+        </div>
+    </div>
+</div>
+  
+
+      <center>
+        <table>
+          <tr style="border-bottom: solid black 1px;">
+            <th style="min-width: 300px;">Übungsleiterinnen & -leiter</th>
+            <th style="min-width: 350px;">Angebotende Kurse</th>
+          </tr>
+          {% for item in site.data.trainers %}
+            {% assign mod = forloop.index0 | modulo:2 %}
+            {% if mod == 1 %}
+                <tr style="height:40px;">
+            {% else %}
+                <tr style="height:40px; background-color: #eee;">
+            {% endif %}
+                <td>{{ item.name }}</td>
+                <td>
+                    {% for task in item.tasks %}
+                        {{ task }}<br>
+                    {% endfor %}
+                </td>
+            </tr>
+          {% endfor %}
+        </table> 
+      </center>
+
+</div>
