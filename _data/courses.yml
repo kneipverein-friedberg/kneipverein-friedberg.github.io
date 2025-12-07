@@ -34,7 +34,7 @@
       place: "Kneipp Treff"
       price:
         member: "49,50"
-        guest: "66,00"
+        guest: "66,-"
       trainers:
         - name: "Elisabeth Walter"
           contact: "0821 781885"
@@ -46,8 +46,8 @@
       start: "12.01.2026"
       place: "Kneipp Treff"
       price:
-        member: "57,00"
-        guest: "75,00"
+        member: "57,-"
+        guest: "75,-"
       trainers:
         - name: "Christa Kiss"
           contact: "0821 70708"
@@ -59,8 +59,8 @@
       start: "12.01.2026"
       place: "Realschulbad"
       price:
-        member: "37,00"
-        guest: "47,00"
+        member: "37,-"
+        guest: "47,-"
       trainers:
         - name: "Claudia Schmid"
           contact: "01590 5359840"
@@ -76,8 +76,8 @@
       start: "13.01.2026"
       place: "Gymnastikhalle (GH) über Stadtbad"
       price:
-        member: "37,00"
-        guest: "47,00"
+        member: "37,-"
+        guest: "47,-"
       trainers:
         - name: "Anni Seiler"
           contact: "0821 605679"
@@ -102,8 +102,8 @@
       start: "13.01.2026"
       place: "Kneipp Treff"
       price:
-        member: "37,00"
-        guest: "47,00"
+        member: "37,-"
+        guest: "47,-"
       trainers:
         - name: "Susanne Thieme"
           contact: "0821 2195356"
@@ -115,8 +115,8 @@
       start: "13.01.2026"
       place: "Kneipp Treff"
       price:
-        member: "57,00"
-        guest: "75,00"
+        member: "57,-"
+        guest: "75,-"
       trainers:
         - name: "Susanne Thieme"
           contact: "0821 2195356"
@@ -141,8 +141,8 @@
       start: "13.01.2026"
       place: "Realschulbad"
       price:
-        member: "37,00"
-        guest: "47,00"
+        member: "37,-"
+        guest: "47,-"
       trainers:
         - name: "Karin Scherer"
           contact: "0821 7290077"
@@ -160,8 +160,8 @@
       start: "14.01.2026"
       place: "Kneipp Treff"
       price:
-        member: "28,00"
-        guest: "36,00"
+        member: "28,-"
+        guest: "36,-"
       trainers:
         - name: "Christa Kiss"
           contact: "0821 707078"
@@ -174,8 +174,8 @@
       start: "07.01.2026"
       place: "Kneipp Treff"
       price:
-        member: "45,00"
-        guest: "60,00"
+        member: "45,-"
+        guest: "60,-"
       trainers:
         - name: "Christa Kiss"
           contact: "0821 707078"
@@ -187,8 +187,8 @@
       start: "14.01.2026"
       place: "Kneipp Treff"
       price:
-        member: "71,00"
-        guest: "81,00"
+        member: "71,-"
+        guest: "81,-"
       trainers:
         - name: "Uschi Seyler"
           contact: "0821 6080177"
@@ -213,8 +213,8 @@
       start: "11.02.2026<br>18.03.2026"
       place: "Kneipp Treff"
       price:
-        member: "5,00"
-        guest: "7,00"
+        member: "5,-"
+        guest: "7,-"
       trainers:
         - name: "Anmeldung im Kneipp Treff"
           contact: "0821 2484185"
@@ -230,8 +230,8 @@
       start: "15.01.2026"
       place: "Kneipp Treff"
       price:
-        member: "57,00"
-        guest: "75,00"
+        member: "57,-"
+        guest: "75,-"
       trainers:
         - name: "Susanne Thieme"
           contact: "0821 2195356"
@@ -256,8 +256,8 @@
       start: "15.01.2026"
       place: "Stadtbad"
       price:
-        member: "71,00"
-        guest: "81,00"
+        member: "71,-"
+        guest: "81,-"
       trainers:
         - name: "Uschi Seyler"
           contact: "0821 6080177"
@@ -282,8 +282,8 @@
       start: "08.01.2026"
       place: "Kneipp Treff"
       price:
-        member: "45,00"
-        guest: "60,00"
+        member: "45,-"
+        guest: "60,-"
       trainers:
         - name: "Christa Kiss"
           contact: "0821 707078"
@@ -295,8 +295,8 @@
       start: "08.01.2026"
       place: "Kneipp Treff"
       price:
-        member: "57,00"
-        guest: "75,00"
+        member: "57,-"
+        guest: "75,-"
       trainers:
         - name: "Christa Kiss"
           contact: "0821 70708"
@@ -308,8 +308,8 @@
       start: "08.01.2026"
       place: "Kneipp Treff"
       price:
-        member: "45,00"
-        guest: "60,00"
+        member: "45,-"
+        guest: "60,-"
       trainers:
         - name: "Alexandra von Bartschikowski"
           contact: "0176 96446744"
@@ -326,7 +326,7 @@
       place: "Kneipp Treff"
       price:
         member: "22,50"
-        guest: "30,00"
+        guest: "30,-"
       trainers:
         - name: "Uschi Seyler"
           contact: "0821 6080177"
@@ -338,8 +338,8 @@
       start: "23.01.2026"
       place: "Kneipp Treff"
       price:
-        member: "18,00"
-        guest: "24,00"
+        member: "18,-"
+        guest: "24,-"
       trainers:
         - name: "Kerstin Mayer"
           contact: "0170 4660737"
