@@ -42,8 +42,6 @@ ol ol { list-style-type: lower-alpha; }
 
 .button1:active { outline: solid #1881b8 2px !important; box-shadow: none !important; background-color: white; color: #1881b8; top: 4px !important; }
 
-table { border-collapse: collapse; }
-
 table, th, td { border: 1px solid; }
 
 th, td { padding: 2px 10px 2px 10px; }
